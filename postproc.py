@@ -3,7 +3,7 @@ from netCDF4 import Dataset
 
 # Parse arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--file', '-f', default='/data/westerscheldt_100_map.nc', help='input file location')
+parser.add_argument('--file', '-f', default='/input/westerscheldt_100_map.nc', help='input file location')
 args = parser.parse_args()
 
 # Read the NetCDF datafile
